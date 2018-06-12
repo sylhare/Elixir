@@ -1,8 +1,17 @@
 # Elixir
 
+Elixir is a functional, concurrent, general-purpose programming language that runs on the Erlang virtual machine (BEAM).
+
+![](https://raw.githubusercontent.com/Sylhare/Elixir/master/resources/elixir.png)
+
+Elixir also provides a productive tooling (`Mix` build tool, interactive shell)and an extensible design (scalability, fault-tolerance).
+
 ## Getting started
 
-Go to [elixir-lang.org](https://elixir-lang.org/install.html).
+Go to [elixir-lang.org](https://elixir-lang.org/install.html) and install elixir following the instruction, on MacOS with brew:
+```
+brew install elixir
+```
 
 Elixir has an interactive prompt called `iex` that you can try on the commad line.
 
