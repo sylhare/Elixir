@@ -1,0 +1,13 @@
+language: elixir
+elixir: '1.6.5'
+
+install:
+  - mix local.rebar --force # for Elixir 1.3.0 and up
+  - mix local.hex --force
+  - mix deps.get
+  
+script:
+  - mix test
+  
+after_success:
+  - mix hex.install hexper
