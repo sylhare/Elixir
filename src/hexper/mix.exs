@@ -24,7 +24,8 @@ defmodule Postgrex.MixProject do
 
   defp deps() do
     [
-        {:ex_doc, "~> 0.14", only: :dev} 
+        {:ex_doc, "~> 0.14", only: :dev}, 
+        {:hexper, "~> 0.1", only: :dev}
     ]
   end
 

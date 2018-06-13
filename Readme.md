@@ -74,18 +74,6 @@ Then follow the procedure to add the correct metadata to your `mix.exs` so that 
 mix hex.publish
 ```
 
-### Installing a hex package
-
-First you want to know if that package exists, or if you have the correct name:
-```bash
-mix hex.search hexper
-```
-
-Then you might want to install it using:
-```bash
-mix hex.install hexper
-```
-
 ## Tips
 
 There are no multiple comments line. A comments starts like in python with `#`
