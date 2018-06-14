@@ -4,7 +4,7 @@ defmodule Postgrex.MixProject do
   def project() do
     [
       app: :hexper,
-      version: "0.1.1",
+      version: "0.2.1",
       elixir: "~> 1.6",
       build_embedded: Mix.env == :prod,
       start_permanent: Mix.env == :prod,
@@ -12,7 +12,8 @@ defmodule Postgrex.MixProject do
       package: package(),
       deps: deps(),
       name: "Hexper",
-      source_url: "https://github.com/Sylhare/Elixir"
+      source_url: "https://github.com/Sylhare/Elixir",
+      test_coverage: [tool: ExCoveralls],
     ]
   end
 
@@ -25,7 +26,8 @@ defmodule Postgrex.MixProject do
   defp deps() do
     [
         {:ex_doc, "~> 0.14", only: :dev}, 
-        {:hexper, "~> 0.1", only: :dev}
+        {:mix_test_watch, "~> 0.6", only: :dev, runtime: false},
+        {:excoveralls, "~> 0.5.7", only: :dev},
     ]
   end
 
