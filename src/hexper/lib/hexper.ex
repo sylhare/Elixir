@@ -4,9 +4,9 @@ defmodule Hexper do
   """
 
   @doc """
-  Hello world.
+  Demo function when you create a mix package.
 
-  ## Examples
+  ## Example
 
       iex> Hexper.hello
       :world
@@ -15,23 +15,18 @@ defmodule Hexper do
   def hello do
     :world
   end
-    
-  def main(args) do
-    args |> parse_args |> process
-  end
 
-  def process([]) do
-    IO.puts "No arguments given"
-  end
+  @doc """
+  The on hello world function.
+  It can even say hello to anyone
 
-  def process(options) do
-    IO.puts "Hello #{options[:name]}"
-  end
+  ## Examples
 
-  defp parse_args(args) do
-    {options, _, _} = OptionParser.parse(args,
-      switches: [name: :string]
-    )
-    options
+      iex> Hexper.greet("world")
+      "Hello world"
+
+  """
+  def greet(word) do
+    "Hello " <> word
   end
 end

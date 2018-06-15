@@ -4,8 +4,9 @@ defmodule Postgrex.MixProject do
   def project() do
     [
       app: :hexper,
-      version: "0.2.1",
+      version: "1.2.1",
       elixir: "~> 1.6",
+      escript: [main_module: Hello],
       build_embedded: Mix.env == :prod,
       start_permanent: Mix.env == :prod,
       description: description(),
@@ -40,8 +41,8 @@ defmodule Postgrex.MixProject do
       # This option is only needed when you don't want to use the OTP application name
       name: "hexper",
       # These are the default files included in the package
-      files: ["lib", "config", "test", "mix.exs", "README*"],
-        maintainers: ["Sylhare"],
+      files: ["lib", "config", "test", "mix.exs", "README*"],   
+      maintainers: ["Sylhare"],
       licenses: ["MIT"],
       links: %{"GitHub" => "https://github.com/Sylhare/Elixir"}
     ]
