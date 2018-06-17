@@ -118,6 +118,11 @@ There are no multiple comments line. A comments starts like in python with `#`
 IO.puts "Hello world"
 ```
 
+What is the difference between `.ex` and `.exs`:
+
+  - The `ex` is compiled to the erlang `.beam` code
+  - The `.exs` is more of a script that is compiled just-in-time.
+
 ## Sources
 
 - [Introduction to Elixir](https://elixir-lang.org/getting-started/introduction.html)
