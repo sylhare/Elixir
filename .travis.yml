@@ -5,7 +5,7 @@ env:
   global:
     - secure: "Guqp+aXQJYMa30iPtpLCWH9Z2rEP1obZUwUfWQtb6cqBG0WgC3VcdNrphPcZKTkGkYuQ5qHgYR7ZfmcLAccjOoXINLS3FhTnah2U2USa9DWAh48LcakWqeG0e/Mp43UJwmqsFacMAyy7k7n/Cko16Zf9jTiwtEX5t2D+U43YaD0O2XBpX+RhFdyXK1sRx7+OaepzwOk95l+Ac9H0BrYLxlJtSi4LKqQzszS9JGH1q7OKFa9jXiXu2/34iHJbUdMzKG7G6ko4O8jnBl2+F+g6B6E87Mr/B6rN4zvhQ8M3VFzNpgLx8S/nh3vKoeLSbvF9HzKQBc9N7ZdA6RVS8/J7VRQdZ1ZRHILYouzhTFbGj07V/D2DD0qdx+hNlzjgjZNfl5opJuWYAOgJTkqkakQ32ZygTyaQcORwMM7sDHdJPA8KGBlf1ig/vvhR34+3+lp8dLbCkDEo6hHrHL10uRYnnBfZDElOnU7zgwtuwe4HX81op1FB++0ytM5Xk9im72pFVsLvyYa7tt3RNAmaKaIAfwYHwJzsU/LpS9W7PimdJXk/jS0Mm8P0nw7+cw++d+Mtp4krQhDRgSEs9IsIdj+BPDx81vbDRHLKtyz4ucHUdcYgqaOpeyqw5QNGEO1GcRyrZUAtISOV/z8XXa8XlZZ2IinHI1jnXRXj3sSNdqYd7OM="
 
-install:
+install:                                                  # Done already by the elixir image
   - mix local.rebar --force                               # for Elixir 1.3.0 and up
   - mix local.hex --force
   - cd src/hexper && mix deps.get
