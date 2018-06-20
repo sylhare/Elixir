@@ -4,7 +4,7 @@ defmodule Postgrex.MixProject do
   def project() do
     [
       app: :hexper,
-      version: "1.4.0",
+      version: "1.5.0",
       elixir: "~> 1.6",
       escript: [main_module: Hello],
       build_embedded: Mix.env == :prod,

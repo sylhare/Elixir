@@ -17,8 +17,8 @@ defmodule Hexper do
   end
 
   @doc """
-  The on hello world function.
-  It can even say hello to anyone
+  The one hello world function.
+  It can even say hello to anyone ;)
 
   ## Examples
 
