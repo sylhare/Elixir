@@ -1,0 +1,3 @@
+%{
+  "hexper": {:hex, :hexper, "0.1.0", "a469a1dcf77904ee984d1784d966129a779d149220ab55f2978cd9ad9a7a002c", [:mix], [], "hexpm"},
+}
