@@ -1,8 +1,8 @@
-![](https://github.com/Sylhare/Elixir/blob/master/resources/elixir.png?raw=true)
+![](https://github.com/sylhare/Elixir/blob/master/resources/elixir.png?raw=true)
 
 [![Hex pm](http://img.shields.io/hexpm/v/hexper.svg?style=flat)](https://hex.pm/packages/hexper)
-[![Build Status](https://travis-ci.org/Sylhare/Elixir.svg?branch=master)](https://travis-ci.org/Sylhare/Elixir)
-[![codecov](https://codecov.io/gh/Sylhare/Elixir/branch/master/graph/badge.svg)](https://codecov.io/gh/Sylhare/Elixir)
+[![Build Status](https://travis-ci.org/sylhare/Elixir.svg?branch=master)](https://travis-ci.org/sylhare/Elixir)
+[![codecov](https://codecov.io/gh/sylhare/Elixir/branch/master/graph/badge.svg)](https://codecov.io/gh/sylhare/Elixir)
 
 Elixir is a functional, concurrent, general-purpose programming language that runs on the Erlang virtual machine (BEAM).
 
